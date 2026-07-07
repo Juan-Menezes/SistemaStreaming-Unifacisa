@@ -1,7 +1,7 @@
 package br.unifacisa.exceptions;
 
-public class ConteudoRestritoException extends RuntimeException {
-    public ConteudoRestritoException(String message) {
-        super(message);
+public class ConteudoRestritoException extends Exception {
+    public ConteudoRestritoException(String mensagem) {
+        super(mensagem);
     }
 }

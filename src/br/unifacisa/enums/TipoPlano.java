@@ -1,4 +1,5 @@
 package br.unifacisa.enums;
 
-public class TipoPlano {
+public enum TipoPlano {
+    GRATUITO, PREMIUM;
 }

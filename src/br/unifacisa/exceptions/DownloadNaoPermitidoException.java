@@ -1,7 +1,7 @@
 package br.unifacisa.exceptions;
 
-public class DownloadNaoPermitidoException extends RuntimeException {
-    public DownloadNaoPermitidoException(String message) {
-        super(message);
+public class DownloadNaoPermitidoException extends Exception {
+    public DownloadNaoPermitidoException(String mensagem) {
+        super(mensagem);
     }
 }
